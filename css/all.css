@@ -1,0 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrap{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/*header 的部分*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.header h1 a{
+    background-image: url(../img/logo-all-dark.svg);
+    background-repeat: no-repeat;
+    width: 211px;
+    height: 40px;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.header ul{
+    display: flex;
+}
+
+.header li{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.header li a{
+    font-size: 16px;
+    color: #3F5D45;
+    font-weight:bold;
+}
+
+.header .shoppingCart{
+    margin-left: 30px;
+}
+
+
+/*banner 的部分*/
+
+.banner{
+    margin-bottom: 50px;
+}
+
+/*content 的部分*/
+
+.content{
+    display: flex;
+}
+
+/*left-menu*/
+
+.left-menu li{
+    width: 300px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.left-menu a{
+    font-size: 24px;
+    color: #3F5D45;
+    text-align: center;
+}
+
+.lmenu-title{
+    background: #3F5D45;
+
+}
+
+.lmenu-title a{
+    color: #EAF0ED;
+}
+
+.active{
+    background: #EAF0ED;
+}
+
+/*right-menu*/
+
+.p-1{
+    background-image: url(../img/p-1.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 315px;
+}
+
+.p-2{
+    background-image: url(../img/p-2.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 315px;
+}
+
+.p-3{
+    background-image: url(../img/p-3.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 315px;
+}
+
+.p-4{
+    background-image: url(../img/p-4.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 315px;
+}
+
+.p-5{
+    background-image: url(../img/p-5.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 315px;
+}
+
+.p-6{
+    background-image: url(../img/p-6.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 315px;
+}
+
+.right-menu{
+    padding-left: 30px;
+}
+
+.right-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right-menu li{
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.sale{
+    background: #3F5D45;
+    height: 75px;
+    padding-right: 20px;
+    padding-top: 8px;
+    margin-left: 20px;
+}
+
+.sale a{
+    font-size: 16px;
+    color: #EAF0ED;
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr ;
+}
+
+.favorites{
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+
+.commodity{
+    display: flex;
+}
+
+.commodity h4{
+    font-size: 20px;
+    color: #3F5D45;
+    border:  1px solid #EAF0ED;
+    padding: 20px;
+}
+
+.commodity p{
+    font-size: 20px;
+    color: #3F5D45;
+    font-weight:bold;
+    border:  1px solid #EAF0ED;
+    padding: 20px 37px;
+}
+
+.right-menu h5{
+    padding: 20px;
+    background:#EAF0ED;
+}
+
+.right-menu h5 a{
+    font-size: 24px;
+    color: #3F5D45;
+    font-weight:bold;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.right-menu .mb-5{
+    margin-bottom: 50px;
+}
+
+.arrow{
+    padding-left: 412px;
+}
+
+.arrow li{
+    border: 1px solid #EAF0ED;
+}
+
+.arrow .next-page{
+    padding: 13px 12px 0;
+}
+
+.arrow .fine-tuning{
+    padding: 15px;
+}
+
+.fine-tuning a{
+    font-size: 20px;
+    color: #3F5D45;
+}
+
+.fine-active{
+  background: #3F5D45;  
+}
+
+.fine-active a{
+    color: #EAF0ED;
+}
